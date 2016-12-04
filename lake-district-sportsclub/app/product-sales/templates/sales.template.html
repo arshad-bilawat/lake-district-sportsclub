@@ -1,0 +1,16 @@
+<div class="totalSales">
+    Total sales in 2016: {{totalSales | currency:'£'}}
+</div>
+
+<nav class="navbar navbar-default menu-background">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+     <li><a href="#sales-by-quantity" ui-sref="sales.quantity">Sales by quantity</a></li>
+    <li><a href="#sales-by-amount" ui-sref="sales.amount">Sales by amount</a></li>
+    <li><a href="#sales-by-category" ui-sref="sales.category">Sales by category</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div ui-view></div>
+</div>

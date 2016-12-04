@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Road bicycle",
+    "categoryId": 1,
+    "price": 350
+  },
+  {
+    "id": 2,
+    "name": "Runnning Shoes",
+    "categoryId": 2,
+    "price": 75
+  },
+  {
+    "id": 3,
+    "name": "Tent",
+    "categoryId": 3,
+    "price": 60
+  },
+  {
+    "id": 4,
+    "name": "Sports Bycycle",
+    "categoryId": 1,
+    "price": 1549
+  },
+  {
+    "id": 5,
+    "name": "Cycling Helmet",
+    "categoryId": 1,
+    "price": 29
+  },
+  {
+    "id": 6,
+    "name": "Running t-shirt",
+    "categoryId": 2,
+    "price": 15
+  },
+  {
+    "id": 7,
+    "name": "Running shorts",
+    "categoryId": 2,
+    "price": 17
+  },
+  {
+    "id": 8,
+    "name": "Hiking boots",
+    "categoryId": 3,
+    "price": 59
+  }
+]

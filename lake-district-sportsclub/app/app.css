@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana;
+}
+    
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 22pt;
+  margin-bottom: 20px;
+}
+
+.totalSales {
+  font-size: 18pt;
+}
+
+h1 {
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+table {
+  width: 500px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+.year-selector {
+  margin-bottom: 10px;
+  width: 25%
+}
+
+.year-selector label {
+  font-weight: bold;
+}
+
+.sort-link {
+  font-size: 16pt;
+}
+a{
+    cursor: pointer
+}
+.menu-background{
+    background-color:lightgray !important;
+    
+}
+.navbar-default .navbar-nav>li>a{
+color: black;
+}

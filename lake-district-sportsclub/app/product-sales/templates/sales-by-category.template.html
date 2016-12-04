@@ -1,0 +1,29 @@
+
+
+<p>Sales by category</p>
+
+<div class="form-group year-selector">
+    <label>Report year</label>
+    <select class="form-control" ng-options="year as year.year for year in years" ng-model="selectedYear" ng-change="onYearChange(year.year)" >
+       
+      </select>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>
+                Category
+            </td>
+            <td>
+                Sales in £ <a ng-click="descendingOrder()" class="sort-link">↑</a> / <a ng-click="ascendingOrder()" class="sort-link">↓</a>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="sale in salesByCategory | toArray | orderBy:'totalsale':sortReverse :sortReverse">
+            <td>{{sale.category}}</td>
+            <td>{{sale.totalsale | currency:'£'}}</td>
+        </tr>       
+    </tbody>
+</table>
